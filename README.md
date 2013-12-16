@@ -16,4 +16,5 @@ Add this service provider in /app/config/app.php
 Use
 --------
 A new route will be created /phpthumb
+
 Use the library as described [here](http://phpthumb.sourceforge.net/demo/demo/phpThumb.demo.demo.php)
