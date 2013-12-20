@@ -8,11 +8,11 @@
  *
  * Add this to your alias:
  *
- * 'Thumb'  => 'Matteoantoci\Phpthumb\PhpthumbHelper',
+ * 'phpThumb'  => 'Matteoantoci\Phpthumb\PhpthumbHelper',
  *
  * Usage:
  *
- * {{Thumb::get('assets/images/laravel/logo.png', 300, 200)}}
+ * {{phpThumb::get('assets/images/laravel/logo.png', 300, 200)}}
  *
  */
 

@@ -18,3 +18,24 @@ Use
 A new route will be created /phpthumb
 
 Use the library as described [here](http://phpthumb.sourceforge.net/demo/demo/phpThumb.demo.demo.php)
+
+
+phpThumb Helper
+--------
+Add this alias in /app/config/app.php to use phpThumb Helper in your templates.
+
+```
+    'phpThumb' => 'Matteoantoci\Phpthumb\PhpthumbHelper'
+```
+
+The helper class consist on a single static function with this parameters:
+
+```
+    get($img, $w = "", $h = "", $crop = true, $params = array())
+```
+
+- $img -> path of image
+- $w -> max width
+- $h -> max height
+- $crop -> if you want to use zoom-crop feature (true by default)
+- $params -> array of additional parameters. Eg: 'fltr[]=gray'
